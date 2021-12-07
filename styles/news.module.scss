@@ -1,0 +1,94 @@
+.banner {
+    width: 100%;
+    height: 31.25rem;
+    position: relative;
+
+
+    .bannerTitle {
+        position: absolute;
+        left: 22.5rem;
+        top: 15.37rem;
+
+        .tit1 {
+            height: 4.5rem;
+            font-size: 3.5rem;
+            color: #FFFFFF;
+            line-height: 4.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .tit2 {
+            font-size: 1rem;
+            height: 1.5rem;
+            color: #FFFFFF;
+            line-height: 1.5rem;
+        }
+    }
+
+
+}
+
+.tabs {
+    display: flex;
+    height: 6.25rem;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+
+    .tab {
+        width: 21.5rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            height: 2.5rem;
+            width: 7.5rem;
+            line-height: 2.5rem;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .active {
+            display: block;
+            color: rgba(255, 255, 255, 1);
+            background-color: rgba(63, 119, 255, 1);
+            border-radius: 0.25rem;
+            cursor: pointer;
+            user-select: none;
+        }
+    }
+}
+
+.detailBox {
+    margin: 14.19rem 22.5rem;
+
+    .title {
+        height: 4rem;
+        font-size: 3rem;
+        color: #262A33;
+        line-height: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .publishDate {
+        height: 2rem;
+        font-size: 1rem;
+        color: #575B66;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .splitLine {
+        width: 100%;
+        height: 0.06rem;
+        background: #E9EBEE;
+        margin-bottom: 3.75rem;
+    }
+
+    .picBox {
+        width: 100%;
+        height: 42.19rem;
+        margin-bottom: 2.5rem;
+    }
+}

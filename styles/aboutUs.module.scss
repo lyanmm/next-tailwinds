@@ -1,0 +1,194 @@
+.banner {
+    width: 100%;
+    height: 31.25rem;
+    position: relative;
+
+
+    .bannerTitle {
+        position: absolute;
+        left: 22.5rem;
+        top: 15.37rem;
+
+        .tit1 {
+            height: 4.5rem;
+            font-size: 3.5rem;
+            color: #FFFFFF;
+            line-height: 4.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .tit2 {
+            font-size: 1rem;
+            height: 1.5rem;
+            color: #FFFFFF;
+            line-height: 1.5rem;
+        }
+    }
+}
+
+.tabs {
+    display: flex;
+    height: 6.25rem;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+
+    .tab {
+        width: 21.5rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            height: 2.5rem;
+            width: 7.5rem;
+            line-height: 2.5rem;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .active {
+            display: block;
+            color: rgba(255, 255, 255, 1);
+            background-color: rgba(63, 119, 255, 1);
+            border-radius: 0.25rem;
+            cursor: pointer;
+            user-select: none;
+        }
+    }
+}
+
+.article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tit {
+        height: 4.5rem;
+        font-size: 3.5rem;
+        font-family: OPPOSans-B, OPPOSans;
+        font-weight: normal;
+        color: #262A33;
+        line-height: 4.5rem;
+        margin-top: 7rem;
+        //margin-bottom: 4.25rem;
+    }
+
+    .p1 {
+        width: 75rem;
+        font-size: 1rem;
+        font-family: OPPOSans-R, OPPOSans;
+        font-weight: normal;
+        color: #262A33;
+        line-height: 2rem;
+        margin: 0 auto;
+        margin-bottom: 5.75rem;
+    }
+
+}
+
+.achievement {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+
+    .achievementData {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto 21.56rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .achievementItem {
+        text-align: center;
+    }
+}
+
+.contractUsBox {
+    width: 100%;
+    height: 75.63rem;
+    position: relative;
+
+    .tit {
+        height: 3rem;
+        font-size: 3.5rem;
+        font-family: OPPOSans-B, OPPOSans;
+        font-weight: normal;
+        color: #262A33;
+        line-height: 3rem;
+        text-align: center;
+        margin-top: 7.5rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .addressBg {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 67.5rem;
+        z-index: 999;
+    }
+
+    .contactDetails {
+        position: relative;
+        margin: 0 22.5rem;
+        height: 36.88rem;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+
+        .contractWays {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50rem;
+            height: 100%;
+            text-align: center;
+        }
+
+        .contractWay {
+            width: 22.75rem;
+            height: 17.5rem;
+            background: #FFFFFF;
+            border-radius: 0.5rem;
+            margin-left: 1.87rem;
+            margin-bottom: 1.87rem;
+            text-align: center;
+
+            .w1 {
+                width: 3.44rem;
+                height: 4.31rem;
+                margin: 0 auto;
+                margin-top: 3.63rem;
+                margin-bottom: 2.31rem;
+
+            }
+
+            .w2 {
+                height: 2rem;
+                font-size: 1.25rem;
+                font-family: OPPOSans-M, OPPOSans;
+                font-weight: normal;
+                color: #262A33;
+                line-height: 2rem;
+                font-weight: 500;
+                margin-bottom: 0.75rem;
+            }
+
+            .w3 {
+                height: 2rem;
+                font-size: 1rem;
+                font-family: OPPOSans-R, OPPOSans;
+                font-weight: normal;
+                color: #262A33;
+                line-height: 2rem;
+            }
+        }
+    }
+}
